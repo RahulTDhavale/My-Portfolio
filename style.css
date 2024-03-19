@@ -1,0 +1,131 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.contact-info span,
+.technical-overview span,
+.projects span,
+.education span {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Dynamic styling */
+/* Apply hover effect to links */
+a:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Apply background color to sections */
+.section {
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Add box shadow on hover for sections */
+.section:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow on hover */
+}
+
+/* Style headings with gradient background */
+h2 {
+    background-image: linear-gradient(to right, #4CAF50, #00FFFF); /* Gradient background from green to cyan */
+    color: #fff; /* White text color */
+    padding: 10px; /* Add padding to make it more prominent */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style contact information */
+.contact-info p {
+    margin-bottom: 5px; /* Reduce margin between contact information */
+}
+
+/* Style bullet points in lists */
+ul li {
+    position: relative; /* Position relative to enable custom bullet points */
+    padding-left: 20px; /* Add left padding for bullet points */
+}
+
+/* Custom bullet points */
+ul li:before {
+    content: "•"; /* Bullet point character */
+    position: absolute; /* Position absolutely */
+    left: 0; /* Position to the left of list item */
+    color: #4CAF50; /* Green bullet point color */
+    font-size: 1.2em; /* Increase bullet point size */
+    margin-right: 5px; /* Add margin between bullet point and text */
+}
+
+/* CSS for the image */
+img {
+    max-width: 50%; /* Set maximum width to prevent stretching */
+    height: auto; /* Allow the browser to adjust the height proportionally */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* CSS for header section */
+header {
+    text-align: center; /* Align header content to the center */
+}
+
+.profile-image {
+    display: inline-block; /* Ensure image and contact details are inline */
+    margin-right: 20px; /* Add some spacing between image and contact details */
+}
+
+.profile-image img {
+    max-width: 150px; /* Adjust maximum width of the image */
+    height: auto; /* Allow the browser to adjust the height proportionally */
+    border-radius: 50%; /* Make the image circular */
+    border: 3px solid #fff; /* Add a white border around the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+.contact-details {
+    display: inline-block; /* Ensure contact details are inline */
+    vertical-align: top; /* Align contact details to the top */
+    text-align: left; /* Align contact details to the left */
+}
